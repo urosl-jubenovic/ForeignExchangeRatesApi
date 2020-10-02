@@ -1,4 +1,4 @@
-# ForeignExchangeRatesApi
+# Foreign Exchange Rates Api
 Request example: GET http://localhost:63907/api/ExchangeRates?dates=2020-03-03,2020-04-04&baseCurrency=MXN&targetCurrency=IDR
 
 Dates are comma-separated and in yyyy-MM-dd format also must be before or the equal current date.
