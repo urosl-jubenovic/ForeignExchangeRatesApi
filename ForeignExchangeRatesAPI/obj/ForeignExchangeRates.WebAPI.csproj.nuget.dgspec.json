@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRatesAPI\\ForeignExchangeRates.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\ForeignExchangeRates.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\ForeignExchangeRates.Service.csproj",
+        "projectName": "ForeignExchangeRates.Service",
+        "projectPath": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\ForeignExchangeRates.Service.csproj",
+        "packagesPath": "C:\\Users\\UROS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UROS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRatesAPI\\ForeignExchangeRates.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRatesAPI\\ForeignExchangeRates.WebAPI.csproj",
+        "projectName": "ForeignExchangeRates.WebAPI",
+        "projectPath": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRatesAPI\\ForeignExchangeRates.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\UROS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRatesAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\UROS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\ForeignExchangeRates.Service.csproj": {
+                "projectPath": "C:\\Users\\UROS\\Documents\\GitHub\\ForeignExchangeRatesApi\\ForeignExchangeRates.Service\\ForeignExchangeRates.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
